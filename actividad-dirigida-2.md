@@ -1,5 +1,28 @@
 # Actividad Dirigida 2
 
+Aquí pondremos el código bruto para comprender lo que hemos hecho en el notebook de "Jupyter". Contrastar con el otro ejercicio cómo es el código en bruto y saber realizar una **narrativa de programación.**
+
+## Librerías
+Aquí el primer paso es importar la **librería requests.**
+Esto nos permite obtener la página web a la que queremos hacer scrapping.
+
+**Extraemos información de contenido en formato HTML o XML**  con la librería Beautiful Soup para luego poder analizar la información.
+
+## Variables
+En este paso se **define la URL** de donde se sacan los datos, en este caso (https://resultados.elpais.com/deportivos/juegos-olimpicos/medallero/) Es a este enlace al que se le hará el `request.get`, para obtener los datos.
+Si el status code no nos permite hacer scrapping, nos tiene que informar a través del código `req.status_code !=200`
+
+Para que podamos leer los datos en HTML o XML tenemos que pasarlos por `BeautifulSoup`
+
+## Datos
+Una vez sepamos con seguridad qué **variables queremos obtener**, en nuestro caso `oros`,`platas`,`bronces` y `total de medallas` que tienen los países que aparecen en la tabla de datos escogida. Por ello, hay que identificarlas en el HTML y en la URL aplicar **la función `find_all()`** para que las busque y las seleccione para, más tarde, mostrárnoslas.
+
+Mediante un bucle a través del código `print`, el código mostrará los datos o número que hemos pedido y nos facilitará una visualización de datos rápida y sencilla.
+
+## Pregunta
+La función principal de la pregunta es para fomentar la interacción con el usuario. En este caso se pregunta `¿Quieres conocer los 20 países que han obtenido más medallas en 2020?`. Si el usuario pulsa `s` significará que si quiere conocerlo y se continuará con el scrapping. En cambio, **si el usuario no pulsa la tecla, no continuará**
+
+## Código bruto
 ```
 from bs4 import BeautifulSoup
 import requests
