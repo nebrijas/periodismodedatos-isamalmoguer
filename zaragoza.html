@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4418d1193a24430a9bf061c51d75d5a2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4418d1193a24430a9bf061c51d75d5a2" ></div>
+        
+</body>
+<script>    
+    
+            var map_4418d1193a24430a9bf061c51d75d5a2 = L.map(
+                "map_4418d1193a24430a9bf061c51d75d5a2",
+                {
+                    center: [41.64, -0.88],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_228d1e5470a64d07a1c7a92570597614 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+            var marker_8bdb49c506524d40abc9cd3275f45747 = L.marker(
+                [41.649027473051156, -0.8818527060979306],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_f472ced5597d43059041c726565798eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3232e1f07136491ea3f47818d810c952 = $(`<div id="html_3232e1f07136491ea3f47818d810c952" style="width: 100.0%; height: 100.0%;">SALIDA CALZADA</div>`)[0];
+            popup_f472ced5597d43059041c726565798eb.setContent(html_3232e1f07136491ea3f47818d810c952);
+        
+
+        marker_8bdb49c506524d40abc9cd3275f45747.bindPopup(popup_f472ced5597d43059041c726565798eb)
+        ;
+
+        
+    
+    
+            var marker_3185b0595ac346958692d71f223f2cea = L.marker(
+                [41.661585829868585, -0.8645810716721081],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_af720c3d86e54551b7a5e4a38c63647e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bc92499dcf94475ae1dbc21e2901bba = $(`<div id="html_8bc92499dcf94475ae1dbc21e2901bba" style="width: 100.0%; height: 100.0%;">COLISIÓN ALCANCE</div>`)[0];
+            popup_af720c3d86e54551b7a5e4a38c63647e.setContent(html_8bc92499dcf94475ae1dbc21e2901bba);
+        
+
+        marker_3185b0595ac346958692d71f223f2cea.bindPopup(popup_af720c3d86e54551b7a5e4a38c63647e)
+        ;
+
+        
+    
+    
+            var marker_e8e5c396bea54f2da1e30691f5d334a6 = L.marker(
+                [41.666992622958105, -0.887776415002892],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_31e68613833e44eca6c9832bb18ca69d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_341d8ea7df714deabc81ba4cdfaf9af1 = $(`<div id="html_341d8ea7df714deabc81ba4cdfaf9af1" style="width: 100.0%; height: 100.0%;">COLISIÓN ALCANCE</div>`)[0];
+            popup_31e68613833e44eca6c9832bb18ca69d.setContent(html_341d8ea7df714deabc81ba4cdfaf9af1);
+        
+
+        marker_e8e5c396bea54f2da1e30691f5d334a6.bindPopup(popup_31e68613833e44eca6c9832bb18ca69d)
+        ;
+
+        
+    
+    
+            var marker_0d50a79b056f40bda6eedd26d7ea1a2a = L.marker(
+                [41.62957498750602, -0.8825260453930127],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_b6a3f84e937d416a87814ec6c04af0a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81824751a32d417e90c7be4ff70bb4fb = $(`<div id="html_81824751a32d417e90c7be4ff70bb4fb" style="width: 100.0%; height: 100.0%;">COLIS FRONTOLATERAL</div>`)[0];
+            popup_b6a3f84e937d416a87814ec6c04af0a1.setContent(html_81824751a32d417e90c7be4ff70bb4fb);
+        
+
+        marker_0d50a79b056f40bda6eedd26d7ea1a2a.bindPopup(popup_b6a3f84e937d416a87814ec6c04af0a1)
+        ;
+
+        
+    
+    
+            var marker_93029118f18a47498c6bbc824dbe9158 = L.marker(
+                [41.6562121210704, -0.908314757720389],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_cf1205c47e8e43a5a4011ca2f374255e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4a5039c0b3d4a25b541fa27896147e9 = $(`<div id="html_d4a5039c0b3d4a25b541fa27896147e9" style="width: 100.0%; height: 100.0%;">SALIDA CALZADA</div>`)[0];
+            popup_cf1205c47e8e43a5a4011ca2f374255e.setContent(html_d4a5039c0b3d4a25b541fa27896147e9);
+        
+
+        marker_93029118f18a47498c6bbc824dbe9158.bindPopup(popup_cf1205c47e8e43a5a4011ca2f374255e)
+        ;
+
+        
+    
+    
+            var marker_8c778e522a1f427592a5ead61aeb711f = L.marker(
+                [41.65949772773082, -0.8691088511672924],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_faf1f3b91f3744bab77616a75d800bce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb0346e0db3e498ba9ce3423724fc13d = $(`<div id="html_cb0346e0db3e498ba9ce3423724fc13d" style="width: 100.0%; height: 100.0%;">OTRAS</div>`)[0];
+            popup_faf1f3b91f3744bab77616a75d800bce.setContent(html_cb0346e0db3e498ba9ce3423724fc13d);
+        
+
+        marker_8c778e522a1f427592a5ead61aeb711f.bindPopup(popup_faf1f3b91f3744bab77616a75d800bce)
+        ;
+
+        
+    
+    
+            var marker_401790fd794948c4b11ba394cae0e93b = L.marker(
+                [41.633353667694024, -0.8880337913721866],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_c95d8d3e480148448e3bba27d2f4c1b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5dcccc4fe62402f9bd0b35aeba8d3cf = $(`<div id="html_a5dcccc4fe62402f9bd0b35aeba8d3cf" style="width: 100.0%; height: 100.0%;">ATROPELLO</div>`)[0];
+            popup_c95d8d3e480148448e3bba27d2f4c1b3.setContent(html_a5dcccc4fe62402f9bd0b35aeba8d3cf);
+        
+
+        marker_401790fd794948c4b11ba394cae0e93b.bindPopup(popup_c95d8d3e480148448e3bba27d2f4c1b3)
+        ;
+
+        
+    
+    
+            var marker_6a678637c4e9495e9ed8d6d8686a1918 = L.marker(
+                [41.6390382112928, -0.8708838775078237],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_5f96794456a54d7ea93f5694e7422936 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a3e9b25f0a64b51bb4dcfd81ab7fa8b = $(`<div id="html_4a3e9b25f0a64b51bb4dcfd81ab7fa8b" style="width: 100.0%; height: 100.0%;">CAIDA SOBRE CALZADA</div>`)[0];
+            popup_5f96794456a54d7ea93f5694e7422936.setContent(html_4a3e9b25f0a64b51bb4dcfd81ab7fa8b);
+        
+
+        marker_6a678637c4e9495e9ed8d6d8686a1918.bindPopup(popup_5f96794456a54d7ea93f5694e7422936)
+        ;
+
+        
+    
+    
+            var marker_d63582c9d981436ca574a0bfff6223fd = L.marker(
+                [41.64083344974765, -0.8970649943808023],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_cac14d21a4d942309e094ac91707e1d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e0df36173894bf4846bfd7eb164aecb = $(`<div id="html_8e0df36173894bf4846bfd7eb164aecb" style="width: 100.0%; height: 100.0%;">COLIS. MARCHA ATRÁS</div>`)[0];
+            popup_cac14d21a4d942309e094ac91707e1d0.setContent(html_8e0df36173894bf4846bfd7eb164aecb);
+        
+
+        marker_d63582c9d981436ca574a0bfff6223fd.bindPopup(popup_cac14d21a4d942309e094ac91707e1d0)
+        ;
+
+        
+    
+    
+            var marker_920e4575dee4431c9d18125c401c146e = L.marker(
+                [41.64904657717317, -0.8718525605769747],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_b7ba982fe70d4974b009e4dcbd2812ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_916c250cee234a4298a3adb390e79d50 = $(`<div id="html_916c250cee234a4298a3adb390e79d50" style="width: 100.0%; height: 100.0%;">COLISIÓN LATERAL</div>`)[0];
+            popup_b7ba982fe70d4974b009e4dcbd2812ea.setContent(html_916c250cee234a4298a3adb390e79d50);
+        
+
+        marker_920e4575dee4431c9d18125c401c146e.bindPopup(popup_b7ba982fe70d4974b009e4dcbd2812ea)
+        ;
+
+        
+    
+    
+            var marker_75ca50f8973b4a0bb9de708620f32ceb = L.marker(
+                [41.64322365075108, -0.8964627561577849],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_ccf03c2b8f3644fa99e9067747144b1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea316caffa89421ea88d48c6d8e228e2 = $(`<div id="html_ea316caffa89421ea88d48c6d8e228e2" style="width: 100.0%; height: 100.0%;">OTRAS</div>`)[0];
+            popup_ccf03c2b8f3644fa99e9067747144b1a.setContent(html_ea316caffa89421ea88d48c6d8e228e2);
+        
+
+        marker_75ca50f8973b4a0bb9de708620f32ceb.bindPopup(popup_ccf03c2b8f3644fa99e9067747144b1a)
+        ;
+
+        
+    
+    
+            var marker_3fbc7b15b03e4417a5dfd6ed348b09a8 = L.marker(
+                [41.68753087470739, -0.8778095796207178],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_0bfef91757bb460ea689187206fde44c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76f9457e7823415e9121584ee43b97f4 = $(`<div id="html_76f9457e7823415e9121584ee43b97f4" style="width: 100.0%; height: 100.0%;">COLISIÓN ALCANCE</div>`)[0];
+            popup_0bfef91757bb460ea689187206fde44c.setContent(html_76f9457e7823415e9121584ee43b97f4);
+        
+
+        marker_3fbc7b15b03e4417a5dfd6ed348b09a8.bindPopup(popup_0bfef91757bb460ea689187206fde44c)
+        ;
+
+        
+    
+    
+            var marker_fe4b3b6914f74075a712bbd216244550 = L.marker(
+                [41.661646612715046, -0.8812157329722801],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_9ce3ab35807a4cb38f4959db45b43de3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9c75c6f6ddc43eba078cd2abcb88b04 = $(`<div id="html_c9c75c6f6ddc43eba078cd2abcb88b04" style="width: 100.0%; height: 100.0%;">SALIDA CALZADA</div>`)[0];
+            popup_9ce3ab35807a4cb38f4959db45b43de3.setContent(html_c9c75c6f6ddc43eba078cd2abcb88b04);
+        
+
+        marker_fe4b3b6914f74075a712bbd216244550.bindPopup(popup_9ce3ab35807a4cb38f4959db45b43de3)
+        ;
+
+        
+    
+    
+            var marker_1f597a5213d845b9bd812936da66fce8 = L.marker(
+                [41.6454384961757, -0.8762000299022707],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_7f1cf5424dfd4c328d5ac4d2e13e7753 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06707a82b4cb431c8ecccd116dedbe96 = $(`<div id="html_06707a82b4cb431c8ecccd116dedbe96" style="width: 100.0%; height: 100.0%;">COLISIÓN ALCANCE</div>`)[0];
+            popup_7f1cf5424dfd4c328d5ac4d2e13e7753.setContent(html_06707a82b4cb431c8ecccd116dedbe96);
+        
+
+        marker_1f597a5213d845b9bd812936da66fce8.bindPopup(popup_7f1cf5424dfd4c328d5ac4d2e13e7753)
+        ;
+
+        
+    
+    
+            var marker_45932767ac9d4d9890238b153eb0ceb3 = L.marker(
+                [41.65543768899759, -0.9089013552408617],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_7c9a17bb7f1042aeba7d4dc179e1ce46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5de3166cc4c84600815b7751333472d8 = $(`<div id="html_5de3166cc4c84600815b7751333472d8" style="width: 100.0%; height: 100.0%;">ATROPELLO</div>`)[0];
+            popup_7c9a17bb7f1042aeba7d4dc179e1ce46.setContent(html_5de3166cc4c84600815b7751333472d8);
+        
+
+        marker_45932767ac9d4d9890238b153eb0ceb3.bindPopup(popup_7c9a17bb7f1042aeba7d4dc179e1ce46)
+        ;
+
+        
+    
+    
+            var marker_5a29b8d9561c4ed69c15f1a39b47ce6d = L.marker(
+                [41.65180346604993, -0.9004729973337304],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_88a30c2e5fc04b9f8c33b2c373d165d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a18cec8d6b949abb1094f34d384d74f = $(`<div id="html_9a18cec8d6b949abb1094f34d384d74f" style="width: 100.0%; height: 100.0%;">COLISIÓN ALCANCE</div>`)[0];
+            popup_88a30c2e5fc04b9f8c33b2c373d165d1.setContent(html_9a18cec8d6b949abb1094f34d384d74f);
+        
+
+        marker_5a29b8d9561c4ed69c15f1a39b47ce6d.bindPopup(popup_88a30c2e5fc04b9f8c33b2c373d165d1)
+        ;
+
+        
+    
+    
+            var marker_c072ae7b3acb444e858a85aafb8ef707 = L.marker(
+                [41.65233828238132, -0.8917562993466011],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_251132d6b38e4af29b9ae50166aaf1fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e628febb3474b7188b75630f7bbd74c = $(`<div id="html_1e628febb3474b7188b75630f7bbd74c" style="width: 100.0%; height: 100.0%;">COLISIÓN ALCANCE</div>`)[0];
+            popup_251132d6b38e4af29b9ae50166aaf1fd.setContent(html_1e628febb3474b7188b75630f7bbd74c);
+        
+
+        marker_c072ae7b3acb444e858a85aafb8ef707.bindPopup(popup_251132d6b38e4af29b9ae50166aaf1fd)
+        ;
+
+        
+    
+    
+            var marker_a11359e3571340f3b52f077c5c74d715 = L.marker(
+                [41.65040494617356, -0.888856043735591],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_54921fa04ef04d07beec3c50f4dee654 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f9a11fd16b848769d09f5d0264a37ae = $(`<div id="html_9f9a11fd16b848769d09f5d0264a37ae" style="width: 100.0%; height: 100.0%;">COLISIÓN ALCANCE</div>`)[0];
+            popup_54921fa04ef04d07beec3c50f4dee654.setContent(html_9f9a11fd16b848769d09f5d0264a37ae);
+        
+
+        marker_a11359e3571340f3b52f077c5c74d715.bindPopup(popup_54921fa04ef04d07beec3c50f4dee654)
+        ;
+
+        
+    
+    
+            var marker_8dd8d775035345f18fdcbd68268adda5 = L.marker(
+                [41.645335650478316, -0.8629911318784169],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_23822c747cee4786aaea7bdf2e7aae97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb0ecf69293d4cd4bec77a20794d93d2 = $(`<div id="html_cb0ecf69293d4cd4bec77a20794d93d2" style="width: 100.0%; height: 100.0%;">COLISIÓN ALCANCE</div>`)[0];
+            popup_23822c747cee4786aaea7bdf2e7aae97.setContent(html_cb0ecf69293d4cd4bec77a20794d93d2);
+        
+
+        marker_8dd8d775035345f18fdcbd68268adda5.bindPopup(popup_23822c747cee4786aaea7bdf2e7aae97)
+        ;
+
+        
+    
+    
+            var marker_15762ae3b9b845ed9faac11a87a494dc = L.marker(
+                [41.609992514227066, -0.8870207060655807],
+                {}
+            ).addTo(map_4418d1193a24430a9bf061c51d75d5a2);
+        
+    
+        var popup_2e61c16c42f24bfa875f9fb27e0351a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1248a9fca8b547f3b52162ba4932ca76 = $(`<div id="html_1248a9fca8b547f3b52162ba4932ca76" style="width: 100.0%; height: 100.0%;">COLISIÓN ALCANCE</div>`)[0];
+            popup_2e61c16c42f24bfa875f9fb27e0351a8.setContent(html_1248a9fca8b547f3b52162ba4932ca76);
+        
+
+        marker_15762ae3b9b845ed9faac11a87a494dc.bindPopup(popup_2e61c16c42f24bfa875f9fb27e0351a8)
+        ;
+
+        
+    
+</script>
