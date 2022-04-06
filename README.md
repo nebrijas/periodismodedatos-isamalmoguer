@@ -10,6 +10,6 @@ Enlace a Actividad Dirigida 4 [AD4](AD4/AD4_api-pandas-folium.md)
 
 # Mapas
 
-Mapa de los diferentes puntos de accidentes viales en Zaragoza. [Pincha aquí] (zaragoza.html)
+Mapa de los diferentes puntos de accidentes viales en Zaragoza. [Pincha aquí](zaragoza.html)
 
 ¿Quieres ver el mapa de Madrid con un marcador verde? Lo puedes encontrar [aquí](tipo.html)
